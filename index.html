@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Etch-a-Sketch</title>
+    <h1>Etch-a-Sketch</h1>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script type="text/javascript" src="javascript.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+
+</head>
+
+<body>
+<form class="form1">
+    <input type="text" value="# of squares (6-20)" id="numberSquares">
+    <script> var squares = document.getElementById('numberSquares').value;</script>
+    <input type="button" id="submit" onClick="makeDivs(squares)" value="Create">
+    <p><em>Refresh browser to clear board.</em></p>
+
+</form>
+
+</body>
+</html>
